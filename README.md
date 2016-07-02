@@ -4,7 +4,7 @@ Instantly build a starter Angular 2 template app for TypeScript.
 
 Run a script and you're ready to go.
 
-The source code for the Angular 2 app launched by this script can be found in the official [quickstart tutorial.  
+The source code for the Angular 2 app launched by this script can be found in the official [ Angular 2 quickstart tutorial.  
 ](https://angular.io/docs/ts/latest/quickstart.html)
 
 * * *
@@ -15,19 +15,19 @@ The source code for the Angular 2 app launched by this script can be found in th
 
 1.  Make sure you have Node.js version 5.0.0 or higher installed.
 
-*   Check your Node version in your terminal/console:
+    - Check your Node version in your terminal/console:
 
-<pre>node -v</pre>
+    <pre>node -v</pre>
 
-3.  Make sure you have npm version 3.0.0 or higher installed:
+2.  Make sure you have npm version 3.0.0 or higher installed:
 
-*   Check your npm version in your terminal/console:
+    - Check your npm version in your terminal/console:
 
-<pre>npm -v</pre>
+    <pre>npm -v</pre>
 
-You can download [Node and npm](https://nodejs.org/en/), and it's also helpful to have [nvm](https://github.com/creationix/nvm) for node version management.
+    You can download [Node and npm](https://nodejs.org/en/), and it's also helpful to have [nvm](https://github.com/creationix/nvm) for node version management.
 
-More specific details are available at the Angular 2 [official docs](https://angular.io/docs/ts/latest/quickstart.html) or its corresponding [GitHub README](https://github.com/angular/quickstart/blob/master/README.md) documentation.
+    More specific details are available at the Angular 2 [official docs](https://angular.io/docs/ts/latest/quickstart.html) or its corresponding [GitHub README](https://github.com/angular/quickstart/blob/master/README.md) documentation.
 
 * * *
 
