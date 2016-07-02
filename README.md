@@ -1,6 +1,10 @@
 # Angular 2 Starter App <small>for Typescript</small>
 
-Instantly build a starter Angular 2 template app for TypeScript. This is the same starter app found in the [official Angular 2 documentation.  
+Instantly build a starter Angular 2 template app for TypeScript.
+
+Run a script and you're ready to go.
+
+The source code for the Angular 2 app launched by this script can be found in the official [quickstart tutorial.  
 ](https://angular.io/docs/ts/latest/quickstart.html)
 
 * * *
