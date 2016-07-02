@@ -13,15 +13,13 @@ Instantly build a starter Angular 2 template app for TypeScript. This is the sam
 
 *   Check your Node version in your terminal/console:
 
-<pre>        node -v
-      </pre>
+<pre>node -v</pre>
 
 3.  Make sure you have npm version 3.0.0 or higher installed:
 
 *   Check your npm version in your terminal/console:
 
-<pre>        npm -v
-      </pre>
+<pre>npm -v</pre>
 
 You can download [Node and npm](https://nodejs.org/en/), and it's also helpful to have [nvm](https://github.com/creationix/nvm) for node version management.
 
@@ -33,20 +31,16 @@ More specific details are available at the Angular 2 [official docs](https://ang
 
 1.  Clone the repository:
 
-    <pre>      git clone https://github.com/dankreiger/angular2-starter-shell-script.git
-        </pre>
+    <pre>git clone https://github.com/dankreiger/angular2-starter-shell-script.git</pre>
 
 2.  Change into the project directory:
 
-    <pre>      cd angular2_starter_shell_script
-        </pre>
+    <pre>cd angular2_starter_shell_script</pre>
 
 3.  Make the script executable:
 
-    <pre>      chmod +x ./auto_setup.sh
-        </pre>
+    <pre>chmod +x ./auto_setup.sh</pre>
 
 4.  Run the script:
 
-    <pre>      ./auto_setup.sh
-        </pre>
+    <pre>./auto_setup.sh</pre>
