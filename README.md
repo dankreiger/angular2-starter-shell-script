@@ -49,6 +49,13 @@ The source code for the Angular 2 app launched by this script can be found in th
 
     <pre>./auto_setup.sh</pre>
 
+<br><br>
+<p>That's it.</p>
+
+
+<br>
+<br>
+
 <hr>
 
 ### Expectations
