@@ -49,27 +49,23 @@ The source code for the Angular 2 app launched by this script can be found in th
 
     <pre>./auto_setup.sh</pre>
 
-<br><br>
+<br>
+<p>Your default browser should open momentarily displaying your new Angular 2 starter app.</p>
+
+
+<br>
 <p>That's it.</p>
 
 
-<br>
-<br>
 
 <hr>
 
 ### Expectations
 
-- <p>Your default browser should open now and display your new Angular 2 starter application.</p>
-
-- <p>You're ready to build your new Angular 2 app.</p>
-
-* * *
-
-
-### Additional Information
-
 
 - <p>The last command <code>npm start</code> will run two parallel node processes <em>(as <a href="https://angular.io/docs/ts/latest/quickstart.html">stated</a> in the Angular 2 docs)</em>:</p>
   1. The TypeScript compiler in watch mode
   2. A static server called lite-server that loads <code>index.html</code> in a browser and refreshes the browser when application files change
+
+
+- <p>Your default browser should open and display your new Angular 2 starter application.</p>
