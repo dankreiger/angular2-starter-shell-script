@@ -1,13 +1,11 @@
 # Angular 2 Starter App <small>for Typescript</small>
 
-Instantly build the <a href="(https://angular.io/docs/ts/latest/quickstart.html)">official quickstart</a> Angular 2 starter app for TypeScript.
+Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quickstart.html) Angular 2 starter app for TypeScript.
 
 ### Table of Contents
-<ul>
-  <li><a href="#before-starting">Before Starting</a></li>
-  <li><a href="#create-angular-2-starter-application-four-steps">Create Angular 2 Starter Application</a></li>
-  <li><a href="#expectations">Expectations</a></li>
-</ul>
+*   [Before Starting](#before-starting)
+*   [Create Angular 2 Starter Application](#create-angular-2-starter-application-four-steps)
+*   [Expectations](#expectations)
 
 * * *
 
