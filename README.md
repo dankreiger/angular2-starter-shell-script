@@ -11,6 +11,13 @@ The source code for the Angular 2 app launched by this script can be found in th
 
 [![](http://angular.io/resources/images/logos/standard/shield-large.png)](https://angular.io/docs/ts/latest/quickstart.html)
 
+### Table of Contents
+<ul>
+  <li><a href="#before-starting">Before Starting</a></li>
+  <li><a href="#create-angular-2-starter-application-four-steps">Create Angular 2 Starter Application (Four Steps)</a></li>
+  <li><a href="#expectations">Expectations</a></li>
+</ul>
+
 ### Before starting:
 
 1.  Make sure you have Node.js version 5.0.0 or higher installed.
