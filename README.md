@@ -61,11 +61,13 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
     ./auto_setup.sh
     ```
 
+<br>
+<br>
 
 
 Your default browser should open momentarily displaying your new Angular 2 starter app.
 
-
+<br>
 
 That's it.
 
