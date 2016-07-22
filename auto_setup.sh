@@ -11,13 +11,11 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 
-$INSTRUCTIONS_SITE=$(printf "${YELLOW}https://angular.io/docs/ts/latest/quickstart.html${NC}")
-echo $INSTRUCTIONS_SITE
-
-$PREREQUISITE=$(printf "\n\n \xF0\x9F\x90\xB6  ${RED}NODE VERSION >= 5.0.0 and NPM VERSION >= ARE REQUIRED.${NC} \n\n")
-$PREREQUISITE_MESSAGE=$(printf "${CYAN}Verify that you are running at least node v5.x.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors.${NC}")
-echo $PREREQUISITE
-echo $PREREQUISITE_MESSAGE
+INSTRUCTIONS_SITE=$(printf "${YELLOW}https://angular.io/docs/ts/latest/quickstart.html${NC}")
+PREREQUISITE=$(printf "\n\n \xF0\x9F\x90\xB6  ${RED}NODE VERSION >= 5.0.0 and NPM VERSION >= ARE REQUIRED.${NC} \n\n")
+PREREQUISITE_MESSAGE=$(printf "${CYAN}Verify that you are running at least node v5.x.x and npm 3.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors.${NC}")
+echo $INSTRUCTIONS_SITE;echo $PREREQUISITE;echo $PREREQUISITE_MESSAGE
+printf '=%.0s' {1..70}&&echo -e '\n'
 
 cat > package.json << EOF
 {
