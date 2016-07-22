@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm ./package.json
-rm -rf ./node_modules
+if [ -f ./package.json ];then rm ./package.json;fi
+if [ -f ./node_modules ];then rm ./node_modules;fi
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
