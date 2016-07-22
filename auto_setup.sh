@@ -39,7 +39,7 @@ EOF
 
 cat > package.json << EOF
 {
-  "name": "angele_das_wetter",
+  "name": "Angular 2 Starter",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
