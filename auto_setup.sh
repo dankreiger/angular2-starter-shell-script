@@ -19,24 +19,6 @@ $PREREQUISITE_MESSAGE=$(printf "${CYAN}Verify that you are running at least node
 echo $PREREQUISITE
 echo $PREREQUISITE_MESSAGE
 
-cat > .gitignore << EOF
-.DS_Store
-logs
-*.log
-npm-debug.log*
-pids
-*.pid
-*.seed
-typings
-app/**/*.js
-app/**/*.map
-node_modules
-jspm_packages
-bower_components
-.npm
-.node_repl_history
-EOF
-
 cat > package.json << EOF
 {
   "name": "Angular 2 Starter",
