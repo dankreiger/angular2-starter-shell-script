@@ -21,7 +21,7 @@ echo $PREREQUISITE_MESSAGE
 
 cat > package.json << EOF
 {
-  "name": "Angular 2 Starter",
+  "name": "angular2_starter",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",

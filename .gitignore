@@ -6,8 +6,14 @@ node_modules
 jspm_packages
 link-checker-results.txt
 **/*npm-debug.log.*
-*.js
-*.js.map
+npm-debug.log*
+pids
+*.pid
+*.seed
+
+
+app/**/*.js
+app/**/*.map
 e2e/**/*.js
 e2e/**/*.js.map
 _test-output
