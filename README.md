@@ -39,19 +39,19 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 
 1.  Clone the repository:
 
-    ```bash
+    ```sh
     git clone https://github.com/dankreiger/angular2-starter-shell-script.git
     ```
 
 2.  Change into the project directory:
 
-    ```bash
+    ```sh
     cd angular2_starter_shell_script
     ```
 
 3.  Run the script:
 
-    ```bash
+    ```sh
     ./auto_setup.sh
     ```
 
