@@ -1,2 +1,3 @@
-var
-func
+checks
+variables
+functions

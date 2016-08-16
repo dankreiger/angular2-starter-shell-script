@@ -13,7 +13,7 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 
 ### Before starting:
 
-1.  Make sure you have Node.js version 5.0.0 or higher installed.
+1.  Make sure you have Node.js version 4.0.0 or higher installed.
 
     - Check your Node version in your terminal/console:
 
@@ -35,29 +35,23 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 
 * * *
 
-### Create Angular 2 Starter Application (Four Steps)
+### Create Angular 2 Starter Application (Three Steps)
 
 1.  Clone the repository:
 
-    ```
+    ```bash
     git clone https://github.com/dankreiger/angular2-starter-shell-script.git
     ```
 
 2.  Change into the project directory:
 
-    ```
+    ```bash
     cd angular2_starter_shell_script
     ```
 
-3.  Make the script executable:
+3.  Run the script:
 
-    ```
-    chmod +x ./auto_setup.sh
-    ```
-
-4.  Run the script:
-
-    ```
+    ```bash
     ./auto_setup.sh
     ```
 

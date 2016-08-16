@@ -1,41 +1,15 @@
 #!/bin/sh
 
-prerequisites() {
-printf '\n';echo $RL;echo $PREREQUISITE;echo $RL;echo $PREREQUISITE_MESSAGE;echo $RL;printf '\n'
-}
-
-check_node() {
-test "$(echo "$@" | tr " " "\n" | sort -r | head -n 1)" == "$1"
-}
-
-current_versions() {
-check_node $USR_NODE $PREREQ_NODE -a check_node $USR_NPM $PREREQ_NPM
-}
-
-outdated_node() {
-check_node $PREREQ_NODE $USR_NODE  -a check_node $USR_NPM $PREREQ_NPM
-}
-
-node_pass() {
-printf "${NODE_PASS}"
-}
-npm_pass() {
-printf "${NPM_PASS}\n\n\n"
-}
-
-node_fail() {
-printf "${NODE_FAIL}"
-}
-
-npm_fail() {
-printf "${NPM_FAIL}\n\n\n"
+request_app_name() {
+  printf "${CYAN}Enter the name of your Angular 2 app and press [ENTER]: ${NC}"
+  printf $YELLOW;read name;printf $NC
 }
 
 json_files() {
 touch ./package.json
 cat > package.json << EOF
 {
-  "name": "angular2_starter",
+  "name": "${name}",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -171,7 +145,7 @@ cat > app/app.component.ts << EOF
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  template: '<h1>${name}</h1>'
 })
 export class AppComponent { }
 EOF
@@ -188,7 +162,7 @@ touch ./index.html
 cat > index.html << EOF
 <html>
   <head>
-    <title>Angular 2 QuickStart</title>
+    <title>${name}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">

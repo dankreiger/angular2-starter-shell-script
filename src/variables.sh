@@ -12,7 +12,6 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-
 INSTRUCTIONS_SITE=$(printf "${YELLOW}https://angular.io/docs/ts/latest/quickstart.html${NC}")
 PREREQUISITE=$(printf "${YELLOW}You must be running at least Node v4.0.0. and npm v3.0.0.${NC} \n\n")
 NODE_PASS=$(printf "\nYour Node Version is $USR_NODE is greater than or equal to $PREREQ_NODE.\n")
