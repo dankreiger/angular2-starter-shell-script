@@ -52,7 +52,7 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 3.  Run the script:
 
     ```sh
-    ./auto_setup.sh
+    ./src/auto_setup.sh
     ```
 
 <br>
