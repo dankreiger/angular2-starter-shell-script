@@ -1,6 +1,6 @@
 #!/bin/sh
 
-while IFS= read -r var;do source src/$var.sh;done < src.txt
+while IFS= read -r var;do source src/ext/$var.sh;done < txt/src.txt
 if current_versions
 then
   prerequisites
