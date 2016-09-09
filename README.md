@@ -2,6 +2,8 @@
 
 Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quickstart.html) Angular 2 starter app for TypeScript.
 
+![Angular 2 Starter Script](https://i.imgflip.com/1abs2a.gif "made at imgflip.com")
+
 ### Table of Contents
 *   [Before Starting](#before-starting)
 *   [Create Angular 2 Starter Application](#create-angular-2-starter-application-four-steps)
