@@ -3,7 +3,7 @@
 
 Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quickstart.html) Angular 2 starter app for TypeScript.
 
-![Angular 2 Starter Script](https://i.imgflip.com/1abt38.gif "made at imgflip.com")
+![Angular 2 Starter Script](https://i.imgflip.com/1abtho.gif)
 
 * * *
 
