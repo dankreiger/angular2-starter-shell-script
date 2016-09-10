@@ -60,17 +60,10 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
     ./src/auto_setup.sh
     ```
 
-<br>
-<br>
+4. Give your starter app a name:
+  ![Alt text](https://monosnap.com/file/sbWAI1yh7YdlVcio5IDAdOZ23grsdN.png)
 
-
-Your default browser should open momentarily displaying your new Angular 2 starter app.
-
-<br>
-
-That's it.
-
-
+5. Your default browser should open momentarily displaying your new Angular 2 starter app.
 
 * * *
 
