@@ -11,13 +11,13 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 
 ### Table of Contents
 *   [Before Starting](#before-starting)
-*   [Create Angular 2 Starter Application](#create-angular-2-starter-application-four-steps)
+*   [Create Angular 2 Starter Application](#create-angular-2-starter-application)
 *   [Expectations](#expectations)
 
 
 [![](http://angular.io/resources/images/logos/standard/shield-large.png)](https://angular.io/docs/ts/latest/quickstart.html)
 
-### Before starting:
+### Before starting
 
 1.  Make sure you have Node.js version 4.0.0 or higher installed.
 
@@ -41,7 +41,7 @@ Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quic
 
 * * *
 
-### Create Angular 2 Starter Application (Three Steps)
+### Create Angular 2 Starter Application
 
 1.  Clone the repository:
 
