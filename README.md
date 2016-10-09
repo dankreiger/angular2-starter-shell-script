@@ -1,5 +1,6 @@
-# Angular 2 Starter App for Typescript
+# Angular 2 Starter App for TypeScript
 
+[Website docs](http://dankreiger.github.io/angular2-starter-shell-script/)
 
 Instantly build the [official quickstart](https://angular.io/docs/ts/latest/quickstart.html) Angular 2 starter app for TypeScript.
 
